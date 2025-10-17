@@ -40,10 +40,6 @@ public class Modelo {
         return motor;
     }
 
-    public void setMotor(Motor motor) {
-        this.motor = motor;
-    }
-
     public ECategoria getCategoria() {
         return categoria;
     }
@@ -70,4 +66,5 @@ public class Modelo {
                 " | Marca - " + marca ;
     }
 }
+
 

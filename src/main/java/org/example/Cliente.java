@@ -23,10 +23,12 @@ public class Cliente {
 
     public void addVeiculo(Veiculo veiculo) {
         this.listaDeVeiculos.add(veiculo);
+        veiculo.setCliente(this);
     }
 
     public void removeVeiculo(Veiculo veiculo) {
         this.listaDeVeiculos.remove(veiculo);
+        veiculo.setCliente(null);
     }
 
     public int getId() {
@@ -88,3 +90,4 @@ public class Cliente {
                 " | Número de Veículos: " + listaDeVeiculos.size();
     }
 }
+

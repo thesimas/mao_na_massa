@@ -19,10 +19,13 @@ public class Motor {
         return tipoCombustivel;
     }
 
-    // Não tem setters pois o Motor faz parte do Modelo em uma associação por COMPOSIÇÃO.
-    // O motor compõe o Modelo, o Motor está dentro de Modelo.
-    // Dessa forma o Motor só existe quando o Modelo é criado.
+    public void setPotencia(int potencia) {
+        this.potencia = potencia;
+    }
 
+    public void setTipoCombustivel(ETipoCombustivel tipoCombustivel) {
+        this.tipoCombustivel = tipoCombustivel;
+    }
 
     @Override
     public String toString() {
@@ -31,4 +34,5 @@ public class Motor {
                 " | Tipo de Combustivel: " + tipoCombustivel ;
     }
 }
+
 

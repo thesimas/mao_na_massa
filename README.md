@@ -32,18 +32,3 @@
     <strong>Enumerações:</strong> Uso de <code>enum</code> para tipos fixos como <code>ECategoria</code> e <code>ETipoCombustivel</code>, garantindo segurança e legibilidade do código.
   </li>
 </ul>
-
-<hr>
-
-### 🛠️ Tecnologias Utilizadas
-<ul>
-  <li>Java 11+</li>
-  <li>Qualquer IDE Java (IntelliJ IDEA, Eclipse, etc.)</li>
-</ul>
-
-<hr>
-
-### Como Executar
-1. Clone o repositório.
-2. Abra o projeto em sua IDE Java preferida.
-3. Execute o método <code>main</code> na classe <strong>Main.java</strong>. A saída será exibida no console.
